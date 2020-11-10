@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Donny stockbit test." });
 });
 
-require("./app/routes/movies.routes.js")(app);
+require("./app/routes/movies.route.js")(app);
 
 const PORT = process.env.PORT || 3000;
 
